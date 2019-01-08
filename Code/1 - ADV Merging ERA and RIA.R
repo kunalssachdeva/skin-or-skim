@@ -1,10 +1,7 @@
-# Kunal's Code
-
 # Need to be in the path:
-#[1] "/Users/kunalsachdeva/Dropbox/Research/Skin or Skim, Online/Code"
-#setwd("/Users/kunalsachdeva/Dropbox/Research/Skin or Skim, Online")
-setwd("C:/Users/byx2/Google Drive/Skin or Skim, Online")
+setwd("~/GitHub/ADV/")
 
+# Ensure libraries are installed before loading
 packages <- c("dplyr", "zoo", "tidyr", "data.table", "stringr", "ineq", "ggplot2")
 purrr::walk(packages, library, character.only = TRUE)
 rm( list=ls() ) #Removes any variables in the environment (wipe memory)
