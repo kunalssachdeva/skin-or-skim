@@ -1,6 +1,6 @@
-setwd("C:/Users/byx2/Google Drive/Skin or Skim, Online")
-#install.packages("purrr")
-#setwd("C:/Users/Billy Xu/Google Drive/Skin or Skim, Online")
+setwd("~/yourWorkingDirectory")
+
+
 packages <- c("dplyr", "zoo", "tidyr", "data.table", "stringr", "ineq", "ggplot2")
 purrr::walk(packages, library, character.only = TRUE)
 rm( list=ls() ) #Removes any variables in the environment (wipe memory)
