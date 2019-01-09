@@ -1,5 +1,5 @@
 # Need to be in the path:
-setwd("~/GitHub/ADV/")
+setwd("~/YourLocalDirectory/")
 
 # Ensure libraries are installed before loading
 packages <- c("dplyr", "zoo", "tidyr", "data.table", "stringr", "ineq", "ggplot2")
